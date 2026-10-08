@@ -59,10 +59,10 @@ In this project, we analyze **6,497 red and white wine samples** from the UCI Ma
 
 To capture complex chemical interactions, four domain-engineered features were derived:
 
-1. **Total Acidity**: $\text{fixed\_acidity} + \text{volatile\_acidity} + \text{citric\_acid}$
-2. **Sulfur Dioxide Ratio**: $\frac{\text{free\_sulfur\_dioxide}}{\text{total\_sulfur\_dioxide} + 1}$
+1. **Total Acidity**: $\text{fixed acidity} + \text{volatile acidity} + \text{citric acid}$
+2. **Sulfur Dioxide Ratio**: $\frac{\text{free sulfur dioxide}}{\text{total sulfur dioxide} + 1}$
 3. **Alcohol-to-Density Ratio**: $\frac{\text{alcohol}}{\text{density} + 10^{-6}}$
-4. **Sugar-to-Acidity Ratio**: $\frac{\text{residual\_sugar}}{\text{fixed\_acidity} + 1}$
+4. **Sugar-to-Acidity Ratio**: $\frac{\text{residual sugar}}{\text{fixed acidity} + 1}$
 
 ### Target Classification Strategy
 
@@ -249,7 +249,3 @@ If you use this project or dataset in your work, please cite the original study:
 Distributed under the MIT License. See `LICENSE` for more details.
 
 ---
-
-<p align="center">
-  Developed by Machine Learning Practitioner & Data Scientist
-</p>
